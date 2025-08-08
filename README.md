@@ -1,12 +1,26 @@
-# React + Vite
+# 🎬 MovieVerse — Movie Search Website (TMDB API + Appwrite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieVerse** is a responsive and lightweight movie search web app that allows users to search for movies and view trending titles. It uses [TMDB (The Movie Database)](https://www.themoviedb.org/) API to fetch movie details, and [Appwrite](https://appwrite.io/) as a backend to track and count search queries — powering a custom trending section.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔎 **Live Search** — Get real-time movie results as you type  
+- 📈 **Trending Movies** — Discover what's popular based on actual user searches  
+- 🎞 **Movie Info** — View posters, titles, release dates, ratings, and overviews  
+- 🧠 **Smart Trending** — Custom logic using Appwrite to count movie search frequency  
+- 📱 **Responsive UI** — Mobile and desktop friendly  
+- ❌ **Error Handling** — Handles empty results and API failures gracefully
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🛠 Tech Stack
+
+**Frontend**
+- **HTML5** — Markup and page structure  
+- **Tailwind CSS** — Utility-first CSS framework for responsive and modern UI  
+- **JavaScript / JSX** — App logic and UI components
+
+**APIs & Backend**
+- **TMDB API** — Fetches real-time movie data (titles, posters, ratings, etc.)  
+- **Appwrite** — Tracks and counts search queries to generate trending movies
